@@ -2,10 +2,10 @@ Contexto: Você foi contratado para desenvolver um sistema de gerenciamento de u
 
 Requisitos:
 1. Classe Veiculo:
-    - Crie uma classe Veiculo que tenha os seguintes atributos: modelo (String), ano (int), cor (String) e quilometragem (double).
-    - Implemente os métodos getters e setters para os atributos acima, garantindo o encapsulamento.
-    - Crie um método acelerar() que aumente a quilometragem do veículo em um valor específico passado como parâmetro.
-    - Crie um método frear() que diminua a quilometragem em um valor específico, sem permitir que o valor seja negativo.
+    - Crie uma classe Veiculo que tenha os seguintes atributos: modelo (String), ano (int), cor (String) e quilometragem (double). 
+    - Implemente os métodos getters e setters para os atributos acima, garantindo o encapsulamento. 
+    - Crie um método acelerar() que aumente a quilometragem do veículo em um valor específico passado como parâmetro. 
+    - Crie um método frear() que diminua a quilometragem em um valor específico, sem permitir que o valor seja negativo. 
 
 2. Métodos Estáticos:
     - Dentro da classe Veiculo, implemente um método estático verificarCombustivel() que receba como parâmetro a quantidade de combustível restante (em litros) e retorne uma mensagem indicando se o veículo precisa abastecer.
