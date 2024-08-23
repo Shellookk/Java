@@ -1,7 +1,26 @@
 package lista_exercicios_faculdade;
-import java.util.ArrayList;
 
-public class Veiculo {
+class Motor{
+    //Atributos Motor
+    private double potencia;
+
+    //Constructor Motor
+    public Motor(double potencia){ //o contructor é um metodo que recebe o mesmo nome da classe e ele inicializa as mesmas
+        this.potencia = potencia;
+    }
+
+    //Get e Setters
+    public double getPotencia(){
+        return potencia;
+    }
+    public void setPotencia(double potencia){
+        this.potencia = potencia;
+    }
+
+}
+
+
+class Veiculo {
     //Atributos Veiculo
     private String modelo;
     private int ano;
@@ -18,7 +37,7 @@ public class Veiculo {
         this.motor = motor;
     };
 
-    //get and setters
+    //Getters and Setters
     public String getModelo() {
         return modelo;
     };
@@ -43,16 +62,21 @@ public class Veiculo {
     public void setQuilometragem(double quilometragem) {
         this.quilometragem = quilometragem;
     }
-    public Motor getMotor(Motor motor){
+    public Motor getMotor(){
         return motor;
     }
-    public Motor setMotor(Motor motor){
+    public void setMotor(Motor motor) {
         this.motor = motor;
     }
 
     //método acelerar
     public void acelerar(double aumentarQuilometragem) {
         this.quilometragem += aumentarQuilometragem;
+    }
+
+    // Sobrecarga do método acelerar com valor padrão
+    public void acelerar() {
+        this.quilometragem += 10.0;
     }
 
     //método frear
