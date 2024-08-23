@@ -19,7 +19,6 @@ class Motor{
 
 }
 
-
 class Veiculo {
     //Atributos Veiculo
     private String modelo;
@@ -35,12 +34,12 @@ class Veiculo {
         this.cor = cor;
         this.quilometragem = 0.0;
         this.motor = motor;
-    };
+    }
 
     //Getters and Setters
     public String getModelo() {
         return modelo;
-    };
+    }
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
