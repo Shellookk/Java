@@ -22,9 +22,7 @@ public class ContaCorrente {
     void cancelar(String justificativa){
 
     }
-    List consultarExtrato( LocalDate datainicial, LocalDate dataFinal){
-        return null;
-    }
+    //List consultarExtrato( LocalDate datainicial, LocalDate dataFinal){}
     double consultarSaldo(){
         return saldoConta;
     }
